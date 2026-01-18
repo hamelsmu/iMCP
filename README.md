@@ -167,37 +167,6 @@ and enter the following:
 
 </details>
 
-### Connect to [Claude Code][claude-code]
-
-To add iMCP globally after installing the app:
-
-```console
-claude mcp add --scope user iMCP -- /Applications/iMCP.app/Contents/MacOS/imcp-server
-```
-
-<details>
-<summary>Or import from Claude Desktop</summary>
-
-If you've already configured Claude Desktop, you can import its MCP servers:
-
-```console
-claude mcp add-from-claude-desktop
-```
-
-</details>
-
-### Connect to [Amp][amp]
-
-To add iMCP globally (available in all projects):
-
-```console
-amp mcp add iMCP -- /Applications/iMCP.app/Contents/MacOS/imcp-server
-```
-
-> [!NOTE]
-> When a client first connects, iMCP will show an approval dialog.
-> Click "Allow" and check "Always trust this client" to avoid repeated prompts.
-
 <img align="right" width="372" src="/Assets/imcp-screenshot-approve-connection.png" />
 
 ### Call iMCP tools from Claude Desktop
@@ -228,6 +197,37 @@ without requiring you to manually share this data during your conversation.
 <p align="center">
   <img width="738" src="/Assets/claude-desktop-screenshot-message.png" alt="Screenshot of Claude response to user message 'How's the weather where I am?'" />
 </p>
+
+### Connect to [Claude Code][claude-code]
+
+To add iMCP globally after installing the app:
+
+```console
+claude mcp add --scope user iMCP -- /Applications/iMCP.app/Contents/MacOS/imcp-server
+```
+
+<details>
+<summary>Or import from Claude Desktop</summary>
+
+If you've already configured Claude Desktop, you can import its MCP servers:
+
+```console
+claude mcp add-from-claude-desktop
+```
+
+</details>
+
+### Connect to [Amp][amp]
+
+To add iMCP globally (available in all projects):
+
+```console
+amp mcp add iMCP -- /Applications/iMCP.app/Contents/MacOS/imcp-server
+```
+
+> [!NOTE]
+> When a client first connects, iMCP will show an approval dialog.
+> Click "Allow" and check "Always trust this client" to avoid repeated prompts.
 
 ## Technical Details
 
