@@ -167,7 +167,7 @@ and enter the following:
 
 </details>
 
-### Connect to Claude Code
+### Connect to [Claude Code][claude-code]
 
 To add iMCP globally after installing the app:
 
@@ -186,7 +186,7 @@ claude mcp add-from-claude-desktop
 
 </details>
 
-### Connect to Amp
+### Connect to [Amp][amp]
 
 To add iMCP globally (available in all projects):
 
